@@ -1,0 +1,8 @@
+.login-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: calc(100% - 80px);
+  margin: auto;
+}

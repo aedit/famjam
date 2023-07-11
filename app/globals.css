@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary-color: #ff2e63;
+  --secondary-color: #08d9d6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+  border: 1px solid black;
+  background-color: white;
+  overflow-y: scroll;
+}
